@@ -88,4 +88,30 @@ let rectangle = {
     }
 };
 
+factory function  
 
+function createRectangle(lambai, choudai){
+    return rectangle = {
+        length: lambai,
+        width: choudai,
+    
+    
+        draw(){
+            console.log("Hello Baccho");
+        }
+    };
+
+}
+
+let createObj1 = createRectangle(5,6);
+let createObj2 = createRectangle(3,7);
+let createObj3 = createRectangle(1,9);
+
+constructor function -> pascal notation
+ function Rectangle(){
+    this.length
+    this.width
+    this.draw(){
+        console.log("Kyaa haal chaal");
+    }
+ };
