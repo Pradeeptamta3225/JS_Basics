@@ -77,7 +77,7 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 //     i++;
 // }while(i<9);
 
-object create 
+// object create 
 let rectangle = {
     length: 1,
     width: 2,
@@ -88,30 +88,56 @@ let rectangle = {
     }
 };
 
-factory function  
+// factory function  
 
-function createRectangle(lambai, choudai){
-    return rectangle = {
-        length: lambai,
-        width: choudai,
+// function createRectangle(lambai, choudai){
+//     return rectangle = {
+//         length: lambai,
+//         width: choudai,
     
     
-        draw(){
-            console.log("Hello Baccho");
-        }
-    };
+//         draw(){
+//             console.log("Hello Baccho");
+//         }
+//     };
 
-}
+// }
 
-let createObj1 = createRectangle(5,6);
-let createObj2 = createRectangle(3,7);
-let createObj3 = createRectangle(1,9);
+// let createObj1 = createRectangle(5,6);
+// let createObj2 = createRectangle(3,7);
+// let createObj3 = createRectangle(1,9);
 
-constructor function -> pascal notation
- function Rectangle(){
-    this.length
-    this.width
-    this.draw(){
+// constructor function -> pascal notation
+
+ function Rectangle(len, bre) {
+    this.length = len;
+    this.width = bre;
+    this.draw=function() {
         console.log("Kyaa haal chaal");
     }
- };
+ }
+
+//  objext creation using constructor function 
+
+ let rectangleObject = new Rectangle(4, 5);
+
+  rectangleObject.color = 'red';
+  console.log(rectangleObject);
+
+  delete rectangleObject.color;
+  console.log(rectangleObject);
+
+
+
+// to know by default function 
+
+
+//   let Rectangle1 = new Function(`length` , `breath`,
+// ` this.length = len;
+//   this.width = bre;
+//   this.draw=function() {
+//       console.log("Kyaa haal chaal");
+//   }`);
+
+//   let rect = new Rectangle1(2, 3);
+//   console.log(rect)
