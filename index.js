@@ -78,15 +78,15 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 // }while(i<9);
 
 // object create 
-let rectangle = {
-    length: 1,
-    width: 2,
+// let rectangle = {
+//     length: 1,
+//     width: 2,
 
 
-    draw: function(){
-        console.log("Hello Baccho")
-    }
-};
+//     draw: function(){
+//         console.log("Hello Baccho")
+//     }
+// };
 
 // factory function  
 
@@ -109,26 +109,122 @@ let rectangle = {
 
 // constructor function -> pascal notation
 
- function Rectangle(len, bre) {
-    this.length = len;
-    this.width = bre;
-    this.draw=function() {
-        console.log("Kyaa haal chaal");
-    }
- }
+//  function Rectangle(len, bre) {
+//     this.length = len;
+//     this.width = bre;
+//     this.draw=function() {
+//         console.log("Kyaa haal chaal");
+//     }
+//  }
 
 //  objext creation using constructor function 
 
- let rectangleObject = new Rectangle(4, 5);
+//  let rectangleObject = new Rectangle(4, 5);
 
-  rectangleObject.color = 'red';
-  console.log(rectangleObject);
+//   rectangleObject.color = 'red';
+//   console.log(rectangleObject);
 
-  delete rectangleObject.color;
-  console.log(rectangleObject);
+//   delete rectangleObject.color;
+//   console.log(rectangleObject);
 
 
 
+// types of JS 
+
+let a= 10,b=a;
+a++;
+console.log(a);
+console.log(b);
+
+
+let a= {value :10};
+let b = a;
+a.value++;
+console.log(a.value);
+console.log(b.value);
+
+
+
+let a=10;
+
+function inc(a){
+    a++;
+}
+
+inc(a);
+console.log(a);
+
+
+let a= {value : 10};
+function inc(a){
+    a.value++;
+}
+
+inc(a);
+console.log(a.value);
+
+
+// for- in loop
+
+// let rectangle ={
+//     length:5,
+//     width:10
+// };
+
+// for(let key in rectangle){
+//     console.log(key,rectangle[key]);
+// }
+
+// if('car' in rectangle){
+//     console.log("Present");
+// }
+// else{
+//     console.log("absent");
+// }
+
+
+// object clonning
+// let src ={
+//     a:2,
+//     b:3,
+//     c:4
+// };
+
+// let dest ={};
+// for(let key in src){
+//     dest[key] = src[key];
+// }
+// console.log(dest);
+
+// src.a++;
+// console.log(dest);
+
+
+// let src ={
+//     a:2,
+//     b:3,
+//     c:4
+// };
+
+// let src2 = {value :10};
+
+// let dest = Object.assign({}, src, src2);
+// console.log(dest);
+
+// src.a++;
+// console.log(dest);
+
+
+// let src ={
+//     a:5,
+//     b:3,
+//     c:4
+// };
+// let dest={...src};
+// console.log(dest);
+
+// src.a++;
+// console.log(dest);
 // to know by default function 
 
 
