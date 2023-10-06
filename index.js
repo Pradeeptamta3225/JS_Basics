@@ -131,56 +131,56 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // types of JS 
 
-let a= 10,b=a;
-a++;
-console.log(a);
-console.log(b);
+// let a= 10,b=a;
+// a++;
+// console.log(a);
+// console.log(b);
 
 
-let a= {value :10};
-let b = a;
-a.value++;
-console.log(a.value);
-console.log(b.value);
+// let a= {value :10};
+// let b = a;
+// a.value++;
+// console.log(a.value);
+// console.log(b.value);
 
 
 
-let a=10;
+// let a=10;
 
-function inc(a){
-    a++;
-}
+// function inc(a){
+//     a++;
+// }
 
-inc(a);
-console.log(a);
+// inc(a);
+// console.log(a);
 
 
-let a= {value : 10};
-function inc(a){
-    a.value++;
-}
+// let a= {value : 10};
+// function inc(a){
+//     a.value++;
+// }
 
-inc(a);
-console.log(a.value);
+// inc(a);
+// console.log(a.value);
 
 
 // for- in loop
 
-// let rectangle ={
-//     length:5,
-//     width:10
-// };
+let rectangle ={
+    length:5,
+    width:10
+};
 
-// for(let key in rectangle){
-//     console.log(key,rectangle[key]);
-// }
+for(let key in rectangle){
+    console.log(key,rectangle[key]);
+}
 
-// if('car' in rectangle){
-//     console.log("Present");
-// }
-// else{
-//     console.log("absent");
-// }
+if('car' in rectangle){
+    console.log("Present");
+}
+else{
+    console.log("absent");
+}
 
 
 // object clonning
