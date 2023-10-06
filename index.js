@@ -166,65 +166,65 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // for- in loop
 
-let rectangle ={
-    length:5,
-    width:10
-};
+// let rectangle ={
+//     length:5,
+//     width:10
+// };
 
-for(let key in rectangle){
-    console.log(key,rectangle[key]);
-}
+// for(let key in rectangle){
+//     console.log(key,rectangle[key]);
+// }
 
-if('car' in rectangle){
-    console.log("Present");
-}
-else{
-    console.log("absent");
-}
+// if('car' in rectangle){
+//     console.log("Present");
+// }
+// else{
+//     console.log("absent");
+// }
 
 
 // object clonning
-// let src ={
-//     a:2,
-//     b:3,
-//     c:4
-// };
+let src ={
+    a:2,
+    b:3,
+    c:4
+};
 
-// let dest ={};
-// for(let key in src){
-//     dest[key] = src[key];
-// }
-// console.log(dest);
+let dest ={};
+for(let key in src){
+    dest[key] = src[key];
+}
+console.log(dest);
 
-// src.a++;
-// console.log(dest);
-
-
-// let src ={
-//     a:2,
-//     b:3,
-//     c:4
-// };
-
-// let src2 = {value :10};
-
-// let dest = Object.assign({}, src, src2);
-// console.log(dest);
-
-// src.a++;
-// console.log(dest);
+src.a++;
+console.log(dest);
 
 
-// let src ={
-//     a:5,
-//     b:3,
-//     c:4
-// };
-// let dest={...src};
-// console.log(dest);
+let src ={
+    a:2,
+    b:3,
+    c:4
+};
 
-// src.a++;
-// console.log(dest);
+let src2 = {value :10};
+
+let dest = Object.assign({}, src, src2);
+console.log(dest);
+
+src.a++;
+console.log(dest);
+
+
+let src ={
+    a:5,
+    b:3,
+    c:4
+};
+let dest={...src};
+console.log(dest);
+
+src.a++;
+console.log(dest);
 // to know by default function 
 
 
