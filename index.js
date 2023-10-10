@@ -184,47 +184,69 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 
 // object clonning
-let src ={
-    a:2,
-    b:3,
-    c:4
-};
+// let src ={
+//     a:2,
+//     b:3,
+//     c:4
+// };
 
-let dest ={};
-for(let key in src){
-    dest[key] = src[key];
-}
-console.log(dest);
+// let dest ={};
+// for(let key in src){
+//     dest[key] = src[key];
+// }
+// console.log(dest);
 
-src.a++;
-console.log(dest);
-
-
-let src ={
-    a:2,
-    b:3,
-    c:4
-};
-
-let src2 = {value :10};
-
-let dest = Object.assign({}, src, src2);
-console.log(dest);
-
-src.a++;
-console.log(dest);
+// src.a++;
+// console.log(dest);
 
 
-let src ={
-    a:5,
-    b:3,
-    c:4
-};
-let dest={...src};
-console.log(dest);
+// let src ={
+//     a:2,
+//     b:3,
+//     c:4
+// };
 
-src.a++;
-console.log(dest);
+// let src2 = {value :10};
+
+// let dest = Object.assign({}, src, src2);
+// console.log(dest);
+
+// src.a++;
+// console.log(dest);
+
+
+// let src ={
+//     a:5,
+//     b:3,
+//     c:4
+// };
+// let dest={...src};
+// console.log(dest);
+
+// src.a++;
+// console.log(dest);
+
+
+
+// objects & arrays
+let lastName = "Tamta";
+
+let firstName = new String("Pradeep");
+
+let message =  
+`Hello ${lastName};
+
+Thanks for the opportunity
+
+Regards,
+Pradeep`;
+
+
+
+// let words = message.split(" ");
+
+console.log(message);
+
 // to know by default function 
 
 
