@@ -247,6 +247,19 @@ Pradeep`;
 
 console.log(message);
 
+
+
+// date & time object 
+
+let date = new Date();
+
+let date2 = new Date('Aug 27 1996 21:30');
+
+let date3 = new Date(1996 , 7 ,27 ,21)
+
+date3.setFullYear(1947)
+console.log(date3);
+
 // to know by default function 
 
 
