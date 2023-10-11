@@ -229,36 +229,55 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 
 // objects & arrays
-let lastName = "Tamta";
+// let lastName = "Tamta";
 
-let firstName = new String("Pradeep");
+// let firstName = new String("Pradeep");
 
-let message =  
-`Hello ${lastName};
+// let message =  
+// `Hello ${lastName};
 
-Thanks for the opportunity
+// Thanks for the opportunity
 
-Regards,
-Pradeep`;
-
-
-
-// let words = message.split(" ");
-
-console.log(message);
+// Regards,
+// Pradeep`;
 
 
 
-// date & time object 
+// // let words = message.split(" ");
 
-let date = new Date();
+// console.log(message);
 
-let date2 = new Date('Aug 27 1996 21:30');
 
-let date3 = new Date(1996 , 7 ,27 ,21)
 
-date3.setFullYear(1947)
-console.log(date3);
+// // date & time object 
+
+// let date = new Date();
+
+// let date2 = new Date('Aug 27 1996 21:30');
+
+// let date3 = new Date(1996 , 7 ,27 ,21)
+
+// date3.setFullYear(1947)
+// console.log(date3);
+
+
+
+// Arrays
+
+let number = [1,2,3,4,8,5];
+
+console.log(number);
+
+// end -push 
+// start - unshift 
+// middle - splice 
+
+// searching
+console.log(number.indexOf(9));
+
+console.log(number.includes(2));
+
+console.log(number.indexOf(4, 2));
 
 // to know by default function 
 
