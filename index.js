@@ -315,14 +315,26 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 
 // combining & slicing array 
- let first = [ 1,2,3,4];
- let second = [5,6,7,8];
+//  let first = [ 1,2,3,4];
+//  let second = [5,6,7,8];
 
- let combined = first.concat(second);
- console.log(combined);
+//  let combined = first.concat(second);
+//  console.log(combined);
 
- let sliced = combined.slice(2,4);
- console.log(sliced);
+//  let sliced = combined.slice(2,4);
+//  console.log(sliced);
+
+
+ let arr1 = [{name : "childs", value: '5'},
+ {name: "lang", value: "German"}];
+                
+            
+
+ let arr2 = [{name: "lang", value: "English"},
+ {name: "age", value: "18"} ];
+
+    let arr3 = arr1.concat(arr2);
+    console.log(arr3);                 
 // to know by default function 
 
 
