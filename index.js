@@ -308,10 +308,21 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // empting an array 
 
-let numbers = [1,2,3,4,5];
+// let numbers = [1,2,3,4,5];
 
-numbers.length= 0;
-console.log(numbers);
+// numbers.length= 0;
+// console.log(numbers);
+
+
+// combining & slicing array 
+ let first = [ 1,2,3,4];
+ let second = [5,6,7,8];
+
+ let combined = first.concat(second);
+ console.log(combined);
+
+ let sliced = combined.slice(2,4);
+ console.log(sliced);
 // to know by default function 
 
 
