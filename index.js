@@ -285,9 +285,14 @@ let courses = [
     {No:2, Name:"Tamta"}
 ];
 
+// call back-function 
+
 let course = courses.find(function(course)
     {return course.Name === "Pradeep";
 });
+
+// Arrow Function 
+let course = courses.find(course =>course.Name === "Pradeep");
 
 console.log(course);
 // to know by default function 
