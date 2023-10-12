@@ -280,21 +280,31 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 // console.log(number.indexOf(4, 2));
 
 
-let courses = [
-    {No:1, Name:"Pradeep"},
-    {No:2, Name:"Tamta"}
-];
+// let courses = [
+//     {No:1, Name:"Pradeep"},
+//     {No:2, Name:"Tamta"}
+// ];
 
 // call back-function 
 
-let course = courses.find(function(course)
-    {return course.Name === "Pradeep";
-});
+// let course = courses.find(function(course)
+//     {return course.Name === "Pradeep";
+// });
 
 // Arrow Function 
-let course = courses.find(course =>course.Name === "Pradeep");
+// let course = courses.find(course => course.Name === "Pradeep");
 
-console.log(course);
+// console.log(course);
+
+
+// Removing elements 
+
+let number = [1,3,5,7,8,9];
+
+// number.pop();
+// number.shift();
+number.splice(3, 2);
+console.log(number);
 // to know by default function 
 
 
