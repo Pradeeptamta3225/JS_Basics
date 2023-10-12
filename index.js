@@ -264,21 +264,32 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // Arrays
 
-let number = [1,2,3,4,8,5];
+// let number = [1,2,3,4,8,5];
 
-console.log(number);
+// console.log(number);
 
-// end -push 
-// start - unshift 
-// middle - splice 
+// // end -push 
+// // start - unshift 
+// // middle - splice 
 
-// searching
-console.log(number.indexOf(9));
+// // searching
+// console.log(number.indexOf(9));
 
-console.log(number.includes(2));
+// console.log(number.includes(2));
 
-console.log(number.indexOf(4, 2));
+// console.log(number.indexOf(4, 2));
 
+
+let courses = [
+    {No:1, Name:"Pradeep"},
+    {No:2, Name:"Tamta"}
+];
+
+let course = courses.find(function(course)
+    {return course.Name === "Pradeep";
+});
+
+console.log(course);
 // to know by default function 
 
 
