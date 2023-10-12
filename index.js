@@ -299,12 +299,19 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // Removing elements 
 
-let number = [1,3,5,7,8,9];
+// let number = [1,3,5,7,8,9];
 
-// number.pop();
-// number.shift();
-number.splice(3, 2);
-console.log(number);
+// // number.pop();
+// // number.shift();
+// number.splice(3, 2);
+// console.log(number);
+
+// empting an array 
+
+let numbers = [1,2,3,4,5];
+
+numbers.length= 0;
+console.log(numbers);
 // to know by default function 
 
 
