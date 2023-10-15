@@ -366,14 +366,32 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // Split Array 
 
-let message = "This is my first message";
+// let message = "This is my first message";
 
-let parts = message.split(' ');
-console.log(parts);
+// let parts = message.split(' ');
+// console.log(parts);
 
 
-let joined = parts.join(' / ');
-console.log(joined);
+// let joined = parts.join(' / ');
+// console.log(joined);
+
+// Sorting Array 
+
+// let number = [50,30,40,35,20];
+// number.sort();
+// console.log(number);
+
+// // Reverse 
+// number.reverse();
+// console.log(number);
+
+// filering Array
+
+let number = [1,2,3,6,7,8,9]
+
+let filterd = number.filter(value =>value >= 4);
+
+console.log(filterd);
 
 // to know by default function 
 
