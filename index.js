@@ -387,12 +387,20 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // filering Array
 
-let number = [1,2,3,6,7,8,9]
+// let number = [1,2,3,6,7,8,9]
 
-let filterd = number.filter(value =>value >= 4);
+// let filterd = number.filter(value =>value >= 4);
 
-console.log(filterd);
+// console.log(filterd);
 
+
+// Map Array 
+
+let numbers = [5,6,7,8,9]
+
+let items = numbers.map(value =>'Student_No' + value);
+
+console.log(items);
 // to know by default function 
 
 
