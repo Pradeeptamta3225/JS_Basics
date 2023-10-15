@@ -339,23 +339,42 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // spread operator
 
-let fisrt = [1,2,3]
-let second = [4,5,6]
+// let fisrt = [1,2,3]
+// let second = [4,5,6]
 
-let combined = [...fisrt,'a',...second,'b']
+// let combined = [...fisrt,'a',...second,'b']
 
-console.log(combined);
+// console.log(combined);
 
 
 // Iterating an Array 
 
-let arr = [10,20,30,"Kese Ho",40,50];
+// let arr = [10,20,30,"Kese Ho",40,50];
 
-for(let value of arr){
-    console.log(value);
-}
+// for(let value of arr){
+//     console.log(value);
+// }
 
-arr.forEach(element => console.log(element));
+// arr.forEach(element => console.log(element));
+
+
+// Joining Array 
+// let arr = [10,20,30,40,50];
+
+// let joined = arr.join(',');
+// console.log(joined);
+
+// Split Array 
+
+let message = "This is my first message";
+
+let parts = message.split(' ');
+console.log(parts);
+
+
+let joined = parts.join(' / ');
+console.log(joined);
+
 // to know by default function 
 
 
