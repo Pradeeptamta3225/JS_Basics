@@ -325,16 +325,37 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 //  console.log(sliced);
 
 
- let arr1 = [{name : "childs", value: '5'},
- {name: "lang", value: "German"}];
+//  let arr1 = [{name : "childs", value: '5'},
+//  {name: "lang", value: "German"}];
                 
             
 
- let arr2 = [{name: "lang", value: "English"},
- {name: "age", value: "18"} ];
+//  let arr2 = [{name: "lang", value: "English"},
+//  {name: "age", value: "18"} ];
 
-    let arr3 = arr1.concat(arr2);
-    console.log(arr3);                 
+//     let arr3 = arr1.concat(arr2);
+//     console.log(arr3);     
+
+
+// spread operator
+
+let fisrt = [1,2,3]
+let second = [4,5,6]
+
+let combined = [...fisrt,'a',...second,'b']
+
+console.log(combined);
+
+
+// Iterating an Array 
+
+let arr = [10,20,30,"Kese Ho",40,50];
+
+for(let value of arr){
+    console.log(value);
+}
+
+arr.forEach(element => console.log(element));
 // to know by default function 
 
 
