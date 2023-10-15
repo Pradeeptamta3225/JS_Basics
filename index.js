@@ -396,11 +396,26 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // Map Array 
 
-let numbers = [5,6,7,8,9]
+// let numbers = [5,6,7,8,9]
 
-let items = numbers.map(value =>'Student_No' + value);
+// let items = numbers.map(value =>'Student_No' + value);
+
+// console.log(items);
+
+
+// Map with Object 
+
+let numbers = [1,2,-3,-6]
+
+let filterd = numbers.filter(value => value >= 0);
+
+let items = filterd.map(function(num){
+    return {value:num};
+});
 
 console.log(items);
+
+
 // to know by default function 
 
 
