@@ -405,16 +405,34 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // Map with Object 
 
-let numbers = [1,2,-3,-6]
+// let numbers = [1,2,-3,-6]
 
-let filterd = numbers.filter(value => value >= 0);
+// let filterd = numbers.filter(value => value >= 0);
 
-let items = filterd.map(function(num){
-    return {value:num};
-});
+// let items = filterd.map(function(num){
+//     return {value:num};
+// });
 
-console.log(items);
+// console.log(items); 
 
+
+// Function 
+
+// function Declartion
+
+function run(){
+    console.log("Running");
+}
+
+run ();
+
+// function assignment 
+
+let stand = function walt(){
+    console.log("walking");
+}
+
+stand();
 
 // to know by default function 
 
