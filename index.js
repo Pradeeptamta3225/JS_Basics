@@ -426,13 +426,23 @@ function run(){
 
 run ();
 
-// function assignment 
+// Named function assignment 
 
 let stand = function walt(){
     console.log("walking");
 }
 
 stand();
+
+
+// Anonymous function assignment 
+
+let stand2 = function(){
+    console.log("hehehe");
+}
+
+stand2();
+
 
 // to know by default function 
 
