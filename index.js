@@ -420,30 +420,43 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // function Declartion
 
-function run(){
-    console.log("Running");
-}
+// function run(){
+//     console.log("Running");
+// }
 
-run ();
+// run ();
 
 // Named function assignment 
 
-let stand = function walt(){
-    console.log("walking");
-}
+// let stand = function walt(){
+//     console.log("walking");
+// }
 
-stand();
+// stand();
 
 
 // Anonymous function assignment 
 
-let stand2 = function(){
-    console.log("hehehe");
+// let stand2 = function(){
+//     console.log("hehehe");
+// }
+
+// stand2();
+
+
+
+// Argunment function
+
+function sum(){
+    let total = 0;
+    for(let value of arguments)
+    total = total + value;
+return total;
 }
 
-stand2();
 
-
+let ans = sum(1,2,3,4);
+console.log(ans);
 // to know by default function 
 
 
