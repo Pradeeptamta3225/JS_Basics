@@ -457,12 +457,20 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // Rest Operator 
 
-function sum(num,...args){
-    console.log(args);
+// function sum(num,...args){
+//     console.log(args);
+// }
+
+// sum(1,2,3,4,5);
+
+
+// Default Parameter
+
+function intrest (p, r=5, y=10){
+    return p*r*y/100;
 }
 
-sum(1,2,3,4,5);
-
+console.log(intrest(1000,4,3));
 // let ans = sum(1,2,3,4);
 // console.log(ans);
 // to know by default function 
