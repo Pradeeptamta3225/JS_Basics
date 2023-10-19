@@ -447,16 +447,24 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // Argunment function
 
-function sum(){
-    let total = 0;
-    for(let value of arguments)
-    total = total + value;
-return total;
+// function sum(){
+//     let total = 0;
+//     for(let value of arguments)
+//     total = total + value;
+// return total;
+// }
+
+
+// Rest Operator 
+
+function sum(num,...args){
+    console.log(args);
 }
 
+sum(1,2,3,4,5);
 
-let ans = sum(1,2,3,4);
-console.log(ans);
+// let ans = sum(1,2,3,4);
+// console.log(ans);
 // to know by default function 
 
 
