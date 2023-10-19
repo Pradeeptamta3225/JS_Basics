@@ -501,14 +501,22 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // console.log(`${person.fName} ${person.lname}`);
 
-try {
-    personalbar.fullName = 1;
-}
+// try {
+//     personalbar.fullName = 1;
+// }
 
-catch(e){
-    alert (e);
-}
+// catch(e){
+//     alert (e);
+// }
 
+
+// Reducing an array 
+
+let arr = [1,2,3,4,5];
+ let totalSum = arr.reduce((accumulator,currentValue) => accumulator + currentValue);
+
+ console.log("Total of array")
+ console.log(totalSum)
 
 
 // let ans = sum(1,2,3,4);
