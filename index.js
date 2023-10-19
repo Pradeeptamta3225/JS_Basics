@@ -476,28 +476,38 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // Getter & Setter
 
-let person ={
-    fName: "Pradeep",
-    lname: "Tamta",
+// let person ={
+//     fName: "Pradeep",
+//     lname: "Tamta",
 
 
-    get fullName(){
-        return `${person.fName} ${person.lname}`;
-    },
+//     get fullName(){
+//         return `${person.fName} ${person.lname}`;
+//     },
 
-    set fullName(value){
-        let parts = value.split(' ');
-        this.fName = parts[0];
-        this.lName = parts[1];
+//     set fullName(value){
+//         let parts = value.split(' ');
+//         this.fName = parts[0];
+//         this.lName = parts[1];
 
-    }
+//     }
 
 
-};
+// };
 
-person.fullName = ('Yogesh Sharma');
-console.log(person.fullName)
+// person.fullName = ('Yogesh Sharma');
+// console.log(person.fullName)
+
+
 // console.log(`${person.fName} ${person.lname}`);
+
+try {
+    personalbar.fullName = 1;
+}
+
+catch(e){
+    alert (e);
+}
 
 
 
