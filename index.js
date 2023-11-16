@@ -512,13 +512,26 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // Reducing an array 
 
-let arr = [1,2,3,4,5];
- let totalSum = arr.reduce((accumulator,currentValue) => accumulator + currentValue);
+// let arr = [1,2,3,4,5];
+//  let totalSum = arr.reduce((accumulator,currentValue) => accumulator + currentValue);
 
- console.log("Total of array")
- console.log(totalSum)
+//  console.log("Total of array")
+//  console.log(totalSum)
 
 
+function mast(){
+
+    var a = 1;
+    let b = 1;
+    {
+        var a = 2;
+        let b = 2;
+    }
+
+    console.log(a,b);
+}
+
+mast();
 // let ans = sum(1,2,3,4);
 // console.log(ans);
 // to know by default function 
@@ -533,3 +546,20 @@ let arr = [1,2,3,4,5];
 
 //   let rect = new Rectangle1(2, 3);
 //   console.log(rect)
+
+
+
+// BMI Calculator
+
+let markMass = 90;
+let heighMark = 1.78;
+
+let johnMass = 80;
+let heightJohn = 1.45
+
+
+let BMIMark = markMass / heighMark ** 2;
+let BMIjohn = johnMass / (heightJohn* heightJohn);
+
+console.log(BMIMark,BMIjohn);
+
