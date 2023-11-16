@@ -519,19 +519,19 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 //  console.log(totalSum)
 
 
-function mast(){
+// function mast(){
 
-    var a = 1;
-    let b = 1;
-    {
-        var a = 2;
-        let b = 2;
-    }
+//     var a = 1;
+//     let b = 1;
+//     {
+//         var a = 2;
+//         let b = 2;
+//     }
 
-    console.log(a,b);
-}
+//     console.log(a,b);
+// }
 
-mast();
+// mast();
 // let ans = sum(1,2,3,4);
 // console.log(ans);
 // to know by default function 
@@ -551,18 +551,26 @@ mast();
 
 // BMI Calculator
 
-let markMass = 90;
-let heighMark = 1.78;
+// let markMass = 90;
+// let heighMark = 1.78;
 
-let johnMass = 80;
-let heightJohn = 1.45
-
-
-let BMIMark = markMass / heighMark ** 2;
-let BMIjohn = johnMass / (heightJohn* heightJohn);
-
-console.log(BMIMark,BMIjohn);
+// let johnMass = 80;
+// let heightJohn = 1.45
 
 
-console.log(BMIMark < BMIjohn);
+// let BMIMark = markMass / heighMark ** 2;
+// let BMIjohn = johnMass / (heightJohn* heightJohn);
 
+// console.log(BMIMark,BMIjohn);
+
+
+// console.log(BMIMark < BMIjohn);
+
+// const arr = [1,2,3,4,5];
+// arr.length = 2;
+// console.log(arr);
+
+console.log("A");
+setTimeout(() => console.log("B"), 0);
+Promise.resolve().then(()=> console.log("C"));
+console.log('D');
