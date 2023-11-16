@@ -563,3 +563,6 @@ let BMIjohn = johnMass / (heightJohn* heightJohn);
 
 console.log(BMIMark,BMIjohn);
 
+
+console.log(BMIMark < BMIjohn);
+
