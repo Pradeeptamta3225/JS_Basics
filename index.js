@@ -570,7 +570,29 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 // arr.length = 2;
 // console.log(arr);
 
-console.log("A");
-setTimeout(() => console.log("B"), 0);
-Promise.resolve().then(()=> console.log("C"));
-console.log('D');
+// console.log("A");
+// setTimeout(() => console.log("B"), 0);
+// Promise.resolve().then(()=> console.log("C"));
+// console.log('D');
+
+
+
+// IF ELSE 
+
+let age = 13;
+
+if(age >= 18) {
+    console.log("You are eligible for vote");
+}else {
+    let yearLeft = 18 - age;
+    console.log(`You are just  ${yearLeft} :Year`)
+}
+
+
+const birthYear = 1998;
+
+if(birthYear <= 2000){
+ console.log(`You are 20th Born`)
+}else {
+    console.log(`You are 21st Born`)
+}
