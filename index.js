@@ -551,20 +551,20 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // BMI Calculator
 
-let markMass = 90;
-let heighMark = 1.78;
+// let markMass = 90;
+// let heighMark = 1.78;
 
-let johnMass = 80;
-let heightJohn = 1.45
-
-
-let BMIMark = markMass / heighMark ** 2;
-let BMIjohn = johnMass / (heightJohn* heightJohn);
-
-console.log(BMIMark,BMIjohn);
+// let johnMass = 80;
+// let heightJohn = 1.45
 
 
-console.log(BMIMark < BMIjohn);
+// let BMIMark = markMass / heighMark ** 2;
+// let BMIjohn = johnMass / (heightJohn* heightJohn);
+
+// console.log(BMIMark,BMIjohn);
+
+
+// console.log(BMIMark < BMIjohn);
 
 const arr = [1,2,3,4,5];
 arr.length = 2;
