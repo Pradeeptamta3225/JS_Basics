@@ -551,48 +551,48 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // BMI Calculator
 
-// let markMass = 90;
-// let heighMark = 1.78;
+let markMass = 90;
+let heighMark = 1.78;
 
-// let johnMass = 80;
-// let heightJohn = 1.45
-
-
-// let BMIMark = markMass / heighMark ** 2;
-// let BMIjohn = johnMass / (heightJohn* heightJohn);
-
-// console.log(BMIMark,BMIjohn);
+let johnMass = 80;
+let heightJohn = 1.45
 
 
-// console.log(BMIMark < BMIjohn);
+let BMIMark = markMass / heighMark ** 2;
+let BMIjohn = johnMass / (heightJohn* heightJohn);
 
-// const arr = [1,2,3,4,5];
-// arr.length = 2;
-// console.log(arr);
+console.log(BMIMark,BMIjohn);
 
-// console.log("A");
-// setTimeout(() => console.log("B"), 0);
-// Promise.resolve().then(()=> console.log("C"));
-// console.log('D');
+
+console.log(BMIMark < BMIjohn);
+
+const arr = [1,2,3,4,5];
+arr.length = 2;
+console.log(arr);
+
+console.log("A");
+setTimeout(() => console.log("B"), 0);
+Promise.resolve().then(()=> console.log("C"));
+console.log('D');
 
 
 
 // IF ELSE 
 
-let age = 13;
+// let age = 13;
 
-if(age >= 18) {
-    console.log("You are eligible for vote");
-}else {
-    let yearLeft = 18 - age;
-    console.log(`You are just  ${yearLeft} :Year`)
-}
+// if(age >= 18) {
+//     console.log("You are eligible for vote");
+// }else {
+//     let yearLeft = 18 - age;
+//     console.log(`You are just  ${yearLeft} :Year`)
+// }
 
 
-const birthYear = 1998;
+// const birthYear = 1998;
 
-if(birthYear <= 2000){
- console.log(`You are 20th Born`)
-}else {
-    console.log(`You are 21st Born`)
-}
+// if(birthYear <= 2000){
+//  console.log(`You are 20th Born`)
+// }else {
+//     console.log(`You are 21st Born`)
+// }
