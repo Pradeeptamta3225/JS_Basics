@@ -566,14 +566,14 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 // console.log(BMIMark < BMIjohn);
 
-const arr = [1,2,3,4,5];
-arr.length = 2;
-console.log(arr);
+// const arr = [1,2,3,4,5];
+// arr.length = 2;
+// console.log(arr);
 
-console.log("A");
-setTimeout(() => console.log("B"), 0);
-Promise.resolve().then(()=> console.log("C"));
-console.log('D');
+// console.log("A");
+// setTimeout(() => console.log("B"), 0);
+// Promise.resolve().then(()=> console.log("C"));
+// console.log('D');
 
 
 
@@ -589,10 +589,10 @@ console.log('D');
 // }
 
 
-// const birthYear = 1998;
+const birthYear = 1998;
 
-// if(birthYear <= 2000){
-//  console.log(`You are 20th Born`)
-// }else {
-//     console.log(`You are 21st Born`)
-// }
+if(birthYear <= 2000){
+ console.log(`You are 20th Born`)
+}else {
+    console.log(`You are 21st Born`)
+}
