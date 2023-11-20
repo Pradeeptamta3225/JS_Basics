@@ -589,10 +589,16 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 // }
 
 
-const birthYear = 1998;
+// const birthYear = 1998;
 
-if(birthYear <= 2000){
- console.log(`You are 20th Born`)
-}else {
-    console.log(`You are 21st Born`)
-}
+// if(birthYear <= 2000){
+//  console.log(`You are 20th Born`)
+// }else {
+//     console.log(`You are 21st Born`)
+// }
+
+
+const obj = {a:1,b:2,c:3};
+const {a,x} = obj;
+
+console.log(x);
