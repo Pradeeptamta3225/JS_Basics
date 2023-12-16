@@ -1,0 +1,10 @@
+
+// let score = 33
+
+// console.log(score);
+
+
+let booleanValue = "Pradeep"
+
+let valueTrue = Boolean(isLoggendIn)
+console.log(valueTrue)
