@@ -598,7 +598,21 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 // }
 
 
-const obj = {a:1,b:2,c:3};
-const {a,x} = obj;
+// const obj = {a:1,b:2,c:3};
+// const {a,x} = obj;
 
-console.log(x);
+// console.log(x);
+
+
+
+let score = 33
+
+console.log(score)
+
+
+
+let isLoggendIn = "Pradeep"
+
+let valueTrue = Boolean(isLoggendIn)
+console.log(valueTrue)
+
