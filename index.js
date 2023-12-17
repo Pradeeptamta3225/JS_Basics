@@ -605,14 +605,44 @@ console.log('Ram Ram Bhai Saareyaane Pranaam');
 
 
 
-let score = 33
+// let score = 33
 
-console.log(score)
+// console.log(score)
 
 
 
-let isLoggendIn = "Pradeep"
+// let isLoggendIn = "Pradeep"
 
-let valueTrue = Boolean(isLoggendIn)
-console.log(valueTrue)
+// let valueTrue = Boolean(isLoggendIn)
+// console.log(valueTrue)
+
+
+
+
+
+//*************Operations */
+
+let value = 3
+
+let negValue = -value
+console.log(negValue)
+
+
+
+let str1 = "Hello ";
+let str2 = "Pradeep"
+
+let str3 = str1 + str2;
+console.log(str3);
+
+
+console.log(+true);
+console.log(+"");
+
+
+
+let gameCounter = 100
+gameCounter++
+// ++gameCounter   prefix 
+console.log(gameCounter);
 
