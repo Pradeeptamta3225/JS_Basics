@@ -11,9 +11,7 @@ let valueInNumber = Number(age);
 // let resultInBoolean = Boolean(result)
 // console.log(resultInBoolean)
 
-
-let naam = 34
-let nameInString = String(naam)
-console.log(nameInString)
-console.log(typeof nameInString)
-// console.log(typeof naam)
+let naam = 32
+let valueInString = String(naam)
+console.log(valueInString)
+console.log(typeof valueInString)
