@@ -13,5 +13,28 @@ let valueInNumber = Number(age);
 
 let naam = 32
 let valueInString = String(naam)
-console.log(valueInString)
-console.log(typeof valueInString)
+// console.log(valueInString)
+// console.log(typeof valueInString)
+
+
+// Operations
+
+
+let str1 = "Hi "
+let str2 = "Pradeep"
+
+let str3 = str1 + str2
+
+console.log(str3)
+
+console.log(true)
+console.log(+true)
+
+let gameScore = 50
+gameScore++
+console.log(gameScore)
+
+
+let gameCount = 50
+gameCount--
+console.log(gameCount)
