@@ -9,7 +9,7 @@
 
 // ***********Array Method************
 
-let myArr = [1, 2, 3, 4, 5, 6]
+// let myArr = [1, 2, 3, 4, 5, 6]
 // myArr.push(6)
 // myArr.push(9)
 // myArr.pop()
@@ -30,20 +30,29 @@ let myArr = [1, 2, 3, 4, 5, 6]
 
 
 
-let indianHeros = ["shaktiman", "arymaan", "Gunior G"]
-let marvalHeros = ["Ironman", "thor", "Thanos"]
+// let indianHeros = ["shaktiman", "arymaan", "Gunior G"]
+// let marvalHeros = ["Ironman", "thor", "Thanos"]
 
-indianHeros.push(marvalHeros)
-console.log(indianHeros.length)   
-console.log(indianHeros)
+// indianHeros.push(marvalHeros)
+// console.log(indianHeros.length)   
+// console.log(indianHeros)
 
 
 // Concatinate 
-let allHero = indianHeros.concat(marvalHeros)     
-console.log(allHero)
+// let allHero = indianHeros.concat(marvalHeros)      //Concatinate
+// console.log(allHero)
 
-let newAllHero = [...indianHeros,...marvalHeros]
-console.log(newAllHero)
+// let newAllHero = [...indianHeros,...marvalHeros]
+// console.log(newAllHero)
+
+
+
+let myArr = [1, 2, 3, [4, 5, 6], 7, 8, [9, 1, 3, [5, 3, 6]]]
+let realArr = myArr.flat(2)
+console.log(realArr)
+
+
+
 
 
 
