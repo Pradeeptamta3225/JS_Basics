@@ -47,9 +47,22 @@
 
 
 
-let myArr = [1, 2, 3, [4, 5, 6], 7, 8, [9, 1, 3, [5, 3, 6]]]
-let realArr = myArr.flat(2)
-console.log(realArr)
+// let myArr = [1, 2, 3, [4, 5, 6], 7, 8, [9, 1, 3, [5, 3, 6]]]
+// let realArr = myArr.flat(2)
+// console.log(realArr)
+
+
+let myArr = "Pradeep"
+console.log(Array.isArray(myArr))
+console.log(Array.from(myArr))
+console.log(Array.from({name: "Pradeep"}))   //Return always empty array
+
+
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1, score2, score3))
 
 
 
