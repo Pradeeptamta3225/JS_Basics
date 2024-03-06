@@ -33,14 +33,14 @@ let myArr = [1, 2, 3, 4, 5, 6]
 let indianHeros = ["shaktiman", "arymaan", "Gunior G"]
 let marvalHeros = ["Ironman", "thor", "Thanos"]
 
-// indianHeros.push(marvalHeros)
-// console.log(indianHeros.length)   
-// console.log(indianHeros)
+indianHeros.push(marvalHeros)
+console.log(indianHeros.length)   
+console.log(indianHeros)
 
 
 // Concatinate 
 let allHero = indianHeros.concat(marvalHeros)     
-// console.log(allHero)
+console.log(allHero)
 
 let newAllHero = [...indianHeros,...marvalHeros]
 console.log(newAllHero)
