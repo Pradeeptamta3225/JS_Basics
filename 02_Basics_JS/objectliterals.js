@@ -3,6 +3,7 @@
 let happenUser = {}
 
 happenUser.Id = "234kndfbnd"
+happenUser.name = "Pradeep"
 happenUser.LoggedIn = true
 
 // console.log(happenUser);
@@ -25,5 +26,14 @@ let obj2 = {2:'b', 4:'d'}
 // let obj3 = {obj1 ,obj2}
 
 
-let obj3 = Object.assign(obj1,obj2)
-console.log(obj3);
+// let obj3 = Object.assign(obj1,obj2)
+let obj3 = {...obj1, ...obj2}
+// console.log(obj3);
+
+
+console.log(happenUser);
+console.log(Object.values(happenUser));
+console.log(Object.keys(happenUser));
+console.log(Object.entries(happenUser));
+
+console.log(happenUser.hasOwnProperty("name"));
