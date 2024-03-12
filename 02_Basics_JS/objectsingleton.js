@@ -1,30 +1,38 @@
 
-let mySym = Symbol("key1")
-let myobj = {
-            name: "Pradeep",
-            class: "12th",
-            age: 19,
-            email: "pradeeptamta1650@gmail.com",
-            [mySym]: "mysym1"
+let happenUser = {}
+
+happenUser.Id = "234kndfbnd"
+happenUser.name = "Pradeep"
+happenUser.LoggedIn = true
+
+// console.log(happenUser);
+
+
+let realUser = {
+    fullname:{
+        firstname:{
+           firstname: "pradeep",
+           lastname: "tamta"
+        }
+    }
 }
 
+// console.log(realUser.fullname.firstname.lastname);
 
-console.log(typeof myobj[mySym]);
-console.log(myobj["age"]);
-myobj.email = "tamta1650@gmail.com"
-// console.log(myobj);
-// Object.freeze(myobj)
-myobj.name = "tamta"
-// console.log(myobj);
+let obj1 = {1:'a', 3:'c'}
+let obj2 = {2:'b', 4:'d'}
 
-myobj.gift = function(){
-    console.log("Kya Haal Hai");
-}
-
-myobj.giftTwo = function(){
-    console.log(`Kya Haal Hai,  ${this.name}`);
-}
+// let obj3 = {obj1 ,obj2}
 
 
-console.log(myobj.gift());
-console.log(myobj.giftTwo());
+// let obj3 = Object.assign(obj1,obj2)
+let obj3 = {...obj1, ...obj2}
+// console.log(obj3);
+
+
+console.log(happenUser);
+console.log(Object.values(happenUser));
+console.log(Object.keys(happenUser));
+console.log(Object.entries(happenUser));
+
+console.log(happenUser.hasOwnProperty("name"));
