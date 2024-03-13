@@ -41,7 +41,8 @@ let obj3 = {...obj1, ...obj2}
 let course = {
     name: "100 Days of Job",
     price: 999,
-    courseTeacher: "pradeep"
+    courseTeacher: "pradeep",
+    age: 18
 }
 
 let {courseTeacher} = course          // Destructuring
