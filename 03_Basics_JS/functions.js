@@ -13,9 +13,32 @@ function myName(){
 
 // myName()
 
-function plus(num1, num2){
-    console.log(num1 + num2);
+// function plus(num1, num2){
+//     console.log(num1 + num2);
+// }
+
+// // plus(2," pradeep")
+// plus(2,7)
+
+
+// function plus(num1, num2){
+//     let result = num1 + num2
+//     return result
+// }
+
+// let result = plus(4,9);
+// console.log("Result:", result);
+
+
+
+function loginUserMessage(username){
+    if(!username) {
+          console.log("Please enter a user name");
+    }
+    return `${username} just logged in`;
 }
 
-// plus(2," pradeep")
-plus(2,7)
+console.log(loginUserMessage());
+console.log(loginUserMessage("Pradeep"));
+
+
