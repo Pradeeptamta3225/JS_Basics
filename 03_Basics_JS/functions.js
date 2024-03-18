@@ -31,14 +31,44 @@ function myName(){
 
 
 
-function loginUserMessage(username){
-    if(!username) {
-          console.log("Please enter a user name");
-    }
-    return `${username} just logged in`;
+// function loginUserMessage(username){
+//     if(!username) {
+//           console.log("Please enter a user name");
+//     }
+//     return `${username} just logged in`;
+// }
+
+// console.log(loginUserMessage());
+// console.log(loginUserMessage("Pradeep"));
+
+
+function cartPrice(...num1){
+  return num1
 }
 
-console.log(loginUserMessage());
-console.log(loginUserMessage("Pradeep"));
+console.log(cartPrice(200,300,500,1500));
 
 
+const user = {
+        username: "Pradeep",
+        price: 199
+}
+
+function handleObject(anyobject) {
+    console.log(`"username is ${anyobject.username} and price is ${anyobject.price}`);
+}
+
+// handleObject(user);
+handleObject({
+    username: "Pradeep",
+    price: 200
+})
+
+
+let myNewArr = [100, 200, 300, 400, 500]
+
+function returnThirdValue(getValue){
+    return getValue[2]
+}
+
+console.log(returnThirdValue(myNewArr));
