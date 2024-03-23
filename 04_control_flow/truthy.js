@@ -28,5 +28,24 @@ if (userName.length === 0) {
 let emptyObj = {}
 
 if (Object.keys(emptyObj).length === 0) {
-    console.log(`Object is empty`);
+    // console.log(`Object is empty`);
 }
+
+
+
+// Nullish coalescing Operator (??)
+
+let val1;
+//  val1 = 5 ?? 10;
+// val1 = null ?? 5;
+val1 = undefined ?? 10;
+
+//  console.log(val1);
+
+// Terniary Operator
+
+// condition ? true : false
+
+let icePrice = 100
+
+icePrice <= 110 ? console.log("less then 80") : console.log("more then 80");
