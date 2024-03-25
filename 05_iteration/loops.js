@@ -11,9 +11,9 @@ for (let i = 0; i <=5; i++) {
     const element = i;
     for (let j = 0; j <=5; j++) {
         const element = j;
-        // console.log(`Inner loop J =  ${element}]`);
+        console.log(`Inner loop J =  ${element}]`);
     }
-    // console.log(`Outer Loop I = ${element}`);
+    console.log(`Outer Loop I = ${element}`);
     
 }
 
