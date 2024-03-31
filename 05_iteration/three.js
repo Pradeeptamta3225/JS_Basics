@@ -24,8 +24,19 @@ map.set('IN',"India")
 map.set('FR',"France")
 map.set('SN',"Singapour")
 
-console.log(map);
+// console.log(map);
 
 for (const [key , value] of map) {
-    console.log(key,":-", value);
+    // console.log(key,":-", value);
+}
+
+
+
+const myObject = {
+    game1 : "NFS",
+    game2 : "Taken3"
+}
+
+for (const [key, value] of myObject) {
+    console.log(`${key} shortcut is ${myObject[key]}`);
 }
