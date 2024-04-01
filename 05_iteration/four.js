@@ -16,5 +16,11 @@ for (const key in myObject) {
 const course = ["C++", "Java", "Ruby", "JavaScript"]
 
 for (const key in course) {
-    console.log(`${course[key]}`);
+    // console.log(`${course[key]}`);
+}
+
+const language = ["C++", "Java", "Ruby", "JavaScript"]
+
+for (const key in language) {
+    console.log(`${language[key]}`);
 }
