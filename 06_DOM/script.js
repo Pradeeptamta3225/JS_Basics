@@ -1,10 +1,9 @@
 
 
-const temo = document.querySelectorAll(li);
+const tempList = document.querySelectorAll("li");
 
-temo[0].style.backgroundColor = "green"
-
-temo.forEach(function (l) {
-    l.style.backgroundColor = "red"
+tempList.forEach( function(l) {
+    l.style.backgroundColor = "black";
+    l.style.color = "green"
 }) 
 
