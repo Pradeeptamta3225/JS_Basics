@@ -16,5 +16,7 @@ parent.children[1].style.color = "red";
 
 const dayOne = document.querySelector(".day");
 console.log(dayOne);
-console.log(dayOne.parentElement);
-console.log(dayOne.nextElementSibling);
+// console.log(dayOne.parentElement);
+// console.log(dayOne.nextElementSibling);
+
+console.log("NODES: ", parent.childNodes);
