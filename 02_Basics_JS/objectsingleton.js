@@ -47,7 +47,7 @@ let course = {
 
 let {courseTeacher} = course          // Destructuring
 let {courseTeacher: guru} = course  
-console.log(guru);
+// console.log(guru);
 
 
 [
@@ -55,3 +55,4 @@ console.log(guru);
     {},
     {}
 ]
+
