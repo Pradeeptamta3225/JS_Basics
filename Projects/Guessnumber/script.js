@@ -30,7 +30,7 @@ function validateGuess(guess){
         alert(`Please Enter a Valid Number`)
     } else if (guess < 1){
         alert(`Plese Enetr a number more then one`)
-    } else if (guess > 10){
+    } else if (guess > 100){
         alert(`Plese Enter a number less then ten`)
     } else{
         previosGuess.push(guess)
