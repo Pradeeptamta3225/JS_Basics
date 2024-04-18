@@ -29,9 +29,9 @@ function validateGuess(guess){
     if(isNaN(guess)){
         alert(`Please Enter a Valid Number`)
     } else if (guess < 1){
-        alert(`Plese Enetr a number more then one`)
+        alert(`Plese Enetr a number more then 1`)
     } else if (guess > 100){
-        alert(`Plese Enter a number less then ten`)
+        alert(`Plese Enter a number less then 100`)
     } else{
         previosGuess.push(guess)
         if(numGuess === 11){
