@@ -55,3 +55,26 @@ promiseFour.then((user) => {
 .finally(()=>{
     console.log("promise either resoved or reject");
 })
+
+
+const promiseFive = new Promise(function(resolve, reject){
+    setTimeout(function(){
+        let error = true;
+        if(!error){
+            resolve({username: "JavaScript", email: "pradeep@gmail.com"});
+        } else{
+                reject("JS went wrong");
+        }
+    },1000)
+})
+
+async function consumePromiseFive(){
+    try {
+        const response = await promiseFive;
+        console.log(response);
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+consumePromiseFive();
