@@ -78,3 +78,36 @@ async function consumePromiseFive(){
 }
 
 consumePromiseFive();
+
+
+// const promiseSix = new Promise(function(resolve, reject){
+//     setTimeout(function(){
+//         let error = true;
+//         if(!error){
+//             resolve({username: "JavaScript", email: "pradeep@gmail.com"});
+//         } else{
+//                 reject("JS went wrong");
+//         }
+//     },1000)
+// });
+
+// async function getAllUsers(){
+//    try {
+//     const response = await fetch('https://jsonplaceholder.typicode.com/users');
+//     // console.log(response);
+//     const data = await response.json();
+//     console.log(data);
+//    } catch (error) {
+//     console.log(error);
+//    }
+// }
+
+// getAllUsers()
+
+
+fetch('https://jsonplaceholder.typicode.com/users').then((response) => {
+  return response.json();
+}).then((data) => {
+    console.log(data);
+})
+.catch( () => console.log(error))
