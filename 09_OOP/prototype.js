@@ -11,13 +11,13 @@ const heroPower = {
 
 
 Object.prototype.pradeep = function(){
-    console.log(`Pradeep is present in all object`);
+    // console.log(`Pradeep is present in all object`);
 }
 
 heroPower.pradeep();
 
 Array.prototype.heyPradeep = function(){
-    console.log(`Hey pradeep`);
+    // console.log(`Hey pradeep`);
 }
 
 
@@ -48,7 +48,20 @@ const teacingAssistance = {
 
 
 teacher.__proto__ = user
-console.log(user);
+// console.log(user);
 // modern syntax
 
-Object.setPrototypeOf(teacher, user)
+Object.setPrototypeOf(teacher, user);
+
+
+
+let anotherUSer = "pradeep    ";
+
+String.prototype.trueLength = function(){
+    console.log(this);
+    console.log(`True length is ${this.trim().length}`);
+}
+
+anotherUSer.trueLength();
+"Kya haal chal".trueLength();
+"sabChanga".trueLength();
