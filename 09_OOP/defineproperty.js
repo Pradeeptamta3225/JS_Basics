@@ -20,8 +20,8 @@ function User(email, password){
             return this._password.toUpperCase();
         },
 
-        set: function(){
-            this._password
+        set: function(value){
+            this._password = value
         }
     })
 }
