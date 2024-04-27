@@ -7,11 +7,12 @@ class User{
 
 
     get email(){
-        return this._email
+        return this._email.toUpperCase();
     }
 
     set email(value){
         this._email = value
+        console.log(this._email);
     }
 
     get password(){
