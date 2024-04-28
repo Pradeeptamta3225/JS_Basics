@@ -65,6 +65,8 @@ let score4 = 500
 
 console.log(Array.of(score1, score2, score3, score4))
 
+console.log(score1);
+
 
 
 
