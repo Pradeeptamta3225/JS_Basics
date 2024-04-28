@@ -5,3 +5,7 @@ let arrB = arrA;
 arrB[0] =15;
 
 console.log(arrA);
+
+
+
+console.log([] instanceof Array);
