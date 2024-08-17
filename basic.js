@@ -18,4 +18,11 @@ let arrB = arrA;
 arrB[0] = 41
 
 console.log(arrA);
+
+
+
+let a =5;
+let b = 6;
+
+console(a+b)
 >>>>>>> refs/remotes/origin/main
