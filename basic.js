@@ -22,7 +22,7 @@ console.log(arrA);
 
 
 let a =5;
-let b = 6;
+let b = 8;
 
 console(a+b)
 >>>>>>> refs/remotes/origin/main
