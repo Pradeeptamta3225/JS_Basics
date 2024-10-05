@@ -67,6 +67,9 @@ console.log(Array.of(score1, score2, score3, score4))
 
 console.log(score1);
 
+console.log("Pradeep Tamta");
+
+
 
 
 
